@@ -1,0 +1,24 @@
+{
+    "name": "gitbook-plugin-pygments",
+    "version": "1.0.0",
+    "description": "Alternative Pygments-based code highlighter for GitBook",
+    "author": "Oleh Prypin <blaxpirit@gmail.com>",
+    "license": "MIT",
+
+    "main": "index.js",
+    "engines": {
+        "gitbook": ">=2.4.0"
+    },
+    "scripts": {
+        "prepublish": "./generate.sh"
+    },
+
+    "homepage": "https://github.com/BlaXpirit/gitbook-plugin-pygments",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlaXpirit/gitbook-plugin-pygments.git"
+    },
+    "bugs": {
+        "url": "https://github.com/BlaXpirit/gitbook-plugin-pygments/issues"
+    }
+}
